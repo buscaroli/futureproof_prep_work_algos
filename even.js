@@ -1,0 +1,13 @@
+// FUTUREPROOF pre-work algo
+
+// Using the modulo operator
+// complete the function called even that takes in an integer
+// and returns (not console.log) a boolean
+
+// Complete the function below
+const even = (num) => {
+  return num % 2 === 0
+}
+
+console.log(even(3)) // => false
+console.log(even(4)) // => true
